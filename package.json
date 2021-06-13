@@ -1,0 +1,22 @@
+{
+  "name": "busquedapaisajax",
+  "version": "1.0.0",
+  "description": "Un input con búsqueda de países que se auto completa con el mas próximo según la búsqueda !!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artozari/BusquedaPaisAjax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artozari/BusquedaPaisAjax/issues"
+  },
+  "homepage": "https://github.com/artozari/BusquedaPaisAjax#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
