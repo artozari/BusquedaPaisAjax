@@ -16,6 +16,9 @@ inputPais.addEventListener(`keyup`, function () {
       b.textContent = nombre;
       pais.textContent = element;
       resultados.appendChild(pais);
+      pais.addEventListener("click", function () {
+        inputPais.value = this.innerHTML;
+      });
     });
   });
   xhr.open("GET", `/buscar?nombrePais=${nombre}`);
